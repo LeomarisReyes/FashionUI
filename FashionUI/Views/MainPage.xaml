@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FashionUI.Views.MainPage"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,Auto">
+             <!-- 1. Main image -->
+            <Image Grid.Row="0" Source="Model3" Aspect="AspectFill" />
+            <!-- 2. Description-->
+            <Frame Grid.Row="1" Margin="0,-35,0,25" CornerRadius="30" HasShadow="False">
+                <Grid RowDefinitions="Auto,Auto,*">
+                    <!-- Box mark-->
+                    <BoxView Grid.Row="0" WidthRequest="{OnPlatform iOS='100', Android='80'}" BackgroundColor="{StaticResource MainColor}" HorizontalOptions="End" Rotation="-3" Margin="{OnPlatform iOS='0,8,55,0', Android='0,0,55,0'}" VerticalOptions="Start"/>
+                    <!-- Title-->
+                    <Label Grid.Row="0" LineHeight="1.5" FontAttributes="Bold" VerticalOptions="Start" HorizontalTextAlignment="Center" FontSize="{OnPlatform iOS='25', Android='20'}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Find The Best "/>
+                                <Span Text=" Fashion " TextColor="White"/>
+                                <Span Text="&#10; Style For You"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <!-- Description-->
+                    <Label Grid.Row="1" Text="Platform that provides many kinds of the best and most trusted fashion&#10;styles. "
+                           FontAttributes="Bold" TextColor="#9fa2a8" FontSize="{OnPlatform iOS='18', Android='15'}" LineHeight="1.4" Margin="30,0"
+                           HorizontalTextAlignment="Center"/>
+                    <!-- Rounded Button-->
+                    <Button Grid.Row="2" BackgroundColor="{StaticResource MainColor}" CornerRadius="33" HeightRequest="66" WidthRequest="66"
+                           ImageSource="Arrow" xct:ShadowEffect.Color="{StaticResource MainColor}" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,15"/>
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

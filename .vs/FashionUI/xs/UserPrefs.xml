@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{DD220B12-9165-4540-93A8-AF0F232A9C9D}|Default">
+  <MonoDevelop.Ide.ItemProperties.FashionUI.Android PreferredExecutionTarget="Android.ZY323KXDS2" />
+  <MonoDevelop.Ide.ItemProperties.FashionUI.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.19246DB7-ED17-4769-94AD-22BF5FA8FA24" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FashionUI/Views/PopularFashionPage.xaml.cs">
+    <Files>
+      <File FileName="FashionUI/Views/MainPage.xaml" Line="33" Column="24" />
+      <File FileName="FashionUI/App.xaml.cs" />
+      <File FileName="FashionUI/Views/PopularFashionPage.xaml" />
+      <File FileName="FashionUI/App.xaml" />
+      <File FileName="FashionUI.iOS/Info.plist" />
+      <File FileName="FashionUI.Android/MainActivity.cs" />
+      <File FileName="FashionUI/ViewModels/PopularFashionViewModel.cs" />
+      <File FileName="FashionUI/Views/MainPage.xaml.cs" />
+      <File FileName="FashionUI/Models/Recommended.cs" />
+      <File FileName="FashionUI/Models/PopularFashion.cs" />
+      <File FileName="FashionUI/Views/PopularFashionPage.xaml.cs" Line="14" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
